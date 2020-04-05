@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <title>Créer un jeu avec Phaser</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="lib/phaser.min.js"></script>
-</head>
-<body>
-    <div id="presentation">bonjour</div>
-    <h1>Phaser</h1>
-    <div id='content'></div>
-    <button id='but'>click</button>
+<body id="body">
+    <h1 class="center" hidden id="dp">bienvenu au questionaire facile</h1>
+    <div class="center" hidden id="bdp">
+         <button class="bouton">jouer</button>
+    </div>
+    <h2 class="center" hidden id="cbr">clicker sur la cible du magicien rouge quand il est rouge</h2>
+    <div class="center">
+    <button class="bouton" hidden id='but'>cible du magicien</button>
+    <button class="bouton rouge" hidden id='sar'>magicien rouge</button>
+    </div>
+    <h2 class="center" hidden id="bj">felicitation</h2>
+    <div class="center">
+        <button class="bouton" hidden id="rj">continuer</button>
+    <h2 class="center" hidden id="rtc">remplisser tous les carré de noir</h2>        
+    </div>
+    <div class="center" hidden id="db">
+        <button class="bouton" id="bdbd1">1</button>
+        <button class="bouton" id="bdbd2">2</button>
+    </div>
+    <div class="center" hidden id="db2">
+            <button class="bouton" id="bdbd21">3</button>
+            <button class="bouton" id="bdbd22">4</button>
+    </div>
 </body>
 <script src="javascript/script.js"></script>
 </html>

@@ -1,10 +1,11 @@
-h1,div{
+
+.bouton{
+    width: 150px;
+    height: 150px;
+}
+.center{
     text-align:center;
 }
-#presentation{
-    color:red;
-}
-#content{
-    margin:0 auto;
-    width:800px;
+.rouge{
+    color: red;
 }

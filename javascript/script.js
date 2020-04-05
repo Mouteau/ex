@@ -1,27 +1,28 @@
-var bonjour=true
-var timer
+
+
+
+document.getElementById("sar").hidden=false
+document.getElementById("but").hidden=false
+document.getElementById("cbr").hidden=false
+
+document.getElementById("sar").addEventListener("click",()=>{
+    document.getElementById("but").style.backgroundColor='red'
+})
+
 document.getElementById("but").addEventListener("click",()=>{
-    console.log("click toto",bonjour)
-
-    if(bonjour===true)
+    if(document.getElementById("but").style.backgroundColor==='red')
     {
-        document.getElementById("presentation").innerHTML="au revoir"
-        bonjour=false
+        document.getElementById("sar").hidden=true
+        document.getElementById("but").hidden=true
+        document.getElementById("cbr").hidden=true
+        document.getElementById("bj").hidden=false
+        document.getElementById("rj").hidden=false
     }
-    else
-    {
-        document.getElementById("presentation").innerHTML="rebonjour"
-        bonjour=true
-    }
-
-    
-
-    var i=0
-    window.clearInterval(timer)
-    timer=window.setInterval(()=>{
-        document.getElementById("presentation").innerHTML=i
-        i=i+1
-    },1000)
-    
-
+})
+document.getElementById("rj").addEventListener("click",()=>{
+    document.getElementById("bj").hidden=true
+    document.getElementById("rj").hidden=true
+    document.getElementById("db").hidden=false
+    document.getElementById("db2").hidden=false
+    document.getElementById("rtc").hidden=false
 })
