@@ -1,0 +1,10 @@
+h1,div{
+    text-align:center;
+}
+#presentation{
+    color:red;
+}
+#content{
+    margin:0 auto;
+    width:800px;
+}
