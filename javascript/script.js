@@ -14,6 +14,8 @@ document.getElementById("but").addEventListener("click",()=>{
         bonjour=true
     }
 
+    
+
     var i=0
     window.clearInterval(timer)
     timer=window.setInterval(()=>{
