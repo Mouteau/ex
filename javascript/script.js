@@ -1,9 +1,26 @@
+document.getElementById("bedut").hidden=false
+document.getElementById("bdebut").hidden=false
+document.getElementById("option").hidden=false
+
+document.getElementById("bdebut").addEventListener("click",()=>{
+    if(document.getElementById("bdebut").style.backgroundColor==='black')
+    document.getElementById("but").style.backgroundColor='black'
+    document.getElementById("sar").style.backgroundColor='black'
+    document.getElementById("bdebut").style.backgroundColor='black'
+    document.getElementById("bdbd1").style.backgroundColor='black'
+    document.getElementById("bdbd2").style.backgroundColor='black'
+    document.getElementById("bdbd3").style.backgroundColor='black'
+    document.getElementById("bdbd4").style.backgroundColor='black'
+    document.getElementById("rj").style.backgroundColor='black'
+    document.getElementById("bedut").hidden=true
+    document.getElementById("bdebut").hidden=true
+    document.getElementById("option").hidden=true
+    document.getElementById("sar").hidden=false
+    document.getElementById("but").hidden=false
+    document.getElementById("cbr").hidden=false
+})
 
 
-
-document.getElementById("sar").hidden=false
-document.getElementById("but").hidden=false
-document.getElementById("cbr").hidden=false
 
 document.getElementById("sar").addEventListener("click",()=>{
     document.getElementById("but").style.backgroundColor='red'
@@ -22,7 +39,95 @@ document.getElementById("but").addEventListener("click",()=>{
 document.getElementById("rj").addEventListener("click",()=>{
     document.getElementById("bj").hidden=true
     document.getElementById("rj").hidden=true
-    document.getElementById("db").hidden=false
-    document.getElementById("db2").hidden=false
+    document.getElementById("bd1").hidden=false
+    document.getElementById("bd2").hidden=false
     document.getElementById("rtc").hidden=false
+})
+
+document.getElementById("bdbd1").addEventListener("click",()=>{
+    if(document.getElementById("bdbd1").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd1").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd2").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd2").hidden=true   
+    }
+    if(document.getElementById("bdbd3").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd3").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd4").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd4").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+})
+
+document.getElementById("bdbd2").addEventListener("click",()=>{
+    if(document.getElementById("bdbd1").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd1").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd2").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd2").hidden=true   
+    }
+    if(document.getElementById("bdbd3").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd3").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd4").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd4").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+})
+
+document.getElementById("bdbd3").addEventListener("click",()=>{
+    if(document.getElementById("bdbd1").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd1").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd2").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd2").hidden=true   
+    }
+    if(document.getElementById("bdbd3").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd3").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd4").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd4").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+})
+
+document.getElementById("bdbd4").addEventListener("click",()=>{
+    if(document.getElementById("bdbd1").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd1").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd2").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd2").hidden=true   
+    }
+    if(document.getElementById("bdbd3").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd3").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
+    if(document.getElementById("bdbd4").style.backgroundColor==='black')
+    {
+        document.getElementById("bdbd4").hidden=true   
+        document.getElementById("rtc").hidden=true 
+    }
 })
