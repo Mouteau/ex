@@ -1,17 +1,25 @@
-
-.bouton{
-    width: 150px;
-    height: 150px;
+.bouton {
+  width: 150px;
+  height: 150px;
 }
-.center{
-    text-align:center;
+.center {
+  text-align: center;
 }
-.rouge{
-    color: red;
+.rouge {
+  color: red;
 }
-.red{
-    background-color: red;
+.red {
+  background-color: red;
 }
-.noir{
-    background-color: black;
+.noir {
+  background-color: black;
+}
+.ronron {
+  background-color: brown;
+}
+.bm {
+  background-color: forestgreen;
+}
+.gris {
+  background-color: gray;
 }
